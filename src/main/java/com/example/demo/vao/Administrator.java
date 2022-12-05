@@ -1,3 +1,5 @@
+package com.example.demo.vao;
+
 public class Administrator {
 	private String uporabniskoIme;
 	private String geslo;
