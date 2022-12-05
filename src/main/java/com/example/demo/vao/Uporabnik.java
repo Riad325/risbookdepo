@@ -1,88 +1,85 @@
-package com.example.demo.vao;
-
-import java.util.List;
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Uporabnik {
-	private String _ime;
-	private String _priimek;
-	private String _email;
-	private String _uporabniskoIme;
-	private String _geslo;
-	private List<Knjiga> _knjiznaPolica;
-	private List<Knjiga> _seznamZelja;
-	public Vector<NakupKnjige> _unnamed_NakupKnjige_ = new Vector<NakupKnjige>();
-	public Vector<Knjiga> _unnamed_Knjiga_ = new Vector<Knjiga>();
+	private String ime;
+	private String priimek;
+	private String email;
+	private String uporabniskoIme;
+	private String geslo;
+	private List<Knjiga> knjiznaPolica;
+	private List<Knjiga> seznamZelja;
+	public ArrayList<NakupKnjige> unnamed_NakupKnjige_ = new ArrayList<NakupKnjige>();
+	public ArrayList<Knjiga> unnamed_Knjiga_ = new ArrayList<Knjiga>();
 
-	public void izposodiKnjigo(Knjiga aKnjiga) {
+	public void izposodiKnjigo(Knjiga knjiga) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void vrniKnjigo(Knjiga aKnjiga) {
+	public void vrniKnjigo(Knjiga knjiga) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void kupiKnjigo(Knjiga aKnjiga) {
+	public void kupiKnjigo(Knjiga knjiga) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void dodajKnjigoNaSeznamZelja(Knjiga aKnjiga) {
+	public void dodajKnjigoNaSeznamZelja(Knjiga knjiga) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void setIme(String aIme) {
-		this._ime = aIme;
+	public void setIme(String ime) {
+		this.ime = ime;
 	}
 
 	public String getIme() {
-		return this._ime;
+		return this.ime;
 	}
 
-	public void setPriimek(String aPriimek) {
-		this._priimek = aPriimek;
+	public void setPriimek(String priimek) {
+		this.priimek = priimek;
 	}
 
 	public String getPriimek() {
-		return this._priimek;
+		return this.priimek;
 	}
 
-	public void setEmail(String aEmail) {
-		this._email = aEmail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getEmail() {
-		return this._email;
+		return this.email;
 	}
 
-	public void setUporabniskoIme(String aUporabniskoIme) {
-		this._uporabniskoIme = aUporabniskoIme;
+	public void setUporabniskoIme(String uporabniskoIme) {
+		this.uporabniskoIme = uporabniskoIme;
 	}
 
 	public String getUporabniskoIme() {
-		return this._uporabniskoIme;
+		return this.uporabniskoIme;
 	}
 
-	public void setGeslo(String aGeslo) {
-		this._geslo = aGeslo;
+	public void setGeslo(String geslo) {
+		this.geslo = geslo;
 	}
 
 	public String getGeslo() {
-		return this._geslo;
+		return this.geslo;
 	}
 
-	public void setKnjiznaPolica(List<Knjiga> aKnjiznaPolica) {
-		this._knjiznaPolica = aKnjiznaPolica;
+	public void setKnjiznaPolica(List<Knjiga> knjiznaPolica) {
+		this.knjiznaPolica = knjiznaPolica;
 	}
 
 	public List<Knjiga> getKnjiznaPolica() {
-		return this._knjiznaPolica;
+		return this.knjiznaPolica;
 	}
 
-	public void setSeznamZelja(List<Knjiga> aSeznamZelja) {
-		this._seznamZelja = aSeznamZelja;
+	public void setSeznamZelja(List<Knjiga> seznamZelja) {
+		this.seznamZelja = seznamZelja;
 	}
 
 	public List<Knjiga> getSeznamZelja() {
-		return this._seznamZelja;
+		return this.seznamZelja;
 	}
 }

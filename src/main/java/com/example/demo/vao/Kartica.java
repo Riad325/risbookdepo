@@ -1,7 +1,5 @@
-package com.example.demo.vao;
-
 public class Kartica extends Placilo {
-	private int _stevilkaKartica;
-	private int _cvv;
-	private String _datumVeljavnosti;
+	private int stevilkaKartica;
+	private int cvv;
+	private String datumVeljavnosti;
 }

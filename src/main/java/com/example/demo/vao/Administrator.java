@@ -1,39 +1,37 @@
-package com.example.demo.vao;
-
 public class Administrator {
-	private String _uporabniskoIme;
-	private String _geslo;
-	public Knjiga _unnamed_Knjiga_;
+	private String uporabniskoIme;
+	private String geslo;
+	public Knjiga unnamed_Knjiga_;
 
-	public void dodajUporabnika(Uporabnik aUporabnik) {
+	public void dodajUporabnika(Uporabnik uporabnik) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void odstraniUporabnika(Uporabnik aUporabnik) {
+	public void odstraniUporabnika(Uporabnik uporabnik) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void dodajKnjigo(Knjiga aKnjiga) {
+	public void dodajKnjigo(Knjiga knjiga) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void odstraniKnjigo(Knjiga aKnjiga) {
+	public void odstraniKnjigo(Knjiga knjiga) {
 		throw new UnsupportedOperationException();
 	}
 
-	public void setUporabniskoIme(String aUporabniskoIme) {
-		this._uporabniskoIme = aUporabniskoIme;
+	public void setUporabniskoIme(String uporabniskoIme) {
+		this.uporabniskoIme = uporabniskoIme;
 	}
 
 	public String getUporabniskoIme() {
-		return this._uporabniskoIme;
+		return this.uporabniskoIme;
 	}
 
-	public void setGeslo(String aGeslo) {
-		this._geslo = aGeslo;
+	public void setGeslo(String geslo) {
+		this.geslo = geslo;
 	}
 
 	public String getGeslo() {
-		return this._geslo;
+		return this.geslo;
 	}
 }

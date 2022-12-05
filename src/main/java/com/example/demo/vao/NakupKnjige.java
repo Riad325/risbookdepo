@@ -1,10 +1,8 @@
-package com.example.demo.vao;
-
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class NakupKnjige {
-	private String _datumNakupa;
-	public Vector<Placilo> _unnamed_Placilo_ = new Vector<Placilo>();
-	public Uporabnik _unnamed_Uporabnik_;
-	public Vector<Knjiga> _unnamed_Knjiga_ = new Vector<Knjiga>();
+	private String datumNakupa;
+	public ArrayList<Placilo> unnamed_Placilo_ = new ArrayList<Placilo>();
+	public Uporabnik unnamed_Uporabnik_;
+	public ArrayList<Knjiga> unnamed_Knjiga_ = new ArrayList<Knjiga>();
 }

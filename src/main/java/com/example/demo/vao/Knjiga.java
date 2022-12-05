@@ -1,73 +1,71 @@
-package com.example.demo.vao;
-
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Knjiga {
-	private String _naslov;
-	private String _avtor;
-	private String _zalozba;
-	private int _letoIzdaje;
-	private int _iSBN;
-	private boolean _status;
-	private Zvrst _zvrst;
-	public Zvrst _unnamed_Zvrst_;
-	public Administrator _unnamed_Administrator_;
-	public Vector<Uporabnik> _unnamed_Uporabnik_ = new Vector<Uporabnik>();
-	public Vector<NakupKnjige> _unnamed_NakupKnjige_ = new Vector<NakupKnjige>();
+	private String naslov;
+	private String avtor;
+	private String zalozba;
+	private int letoIzdaje;
+	private int ISBN;
+	private boolean status;
+	private Zvrst zvrst;
+	public Zvrst unnamed_Zvrst_;
+	public Administrator unnamed_Administrator_;
+	public ArrayList<Uporabnik> unnamed_Uporabnik_ = new ArrayList<Uporabnik>();
+	public ArrayList<NakupKnjige> unnamed_NakupKnjige_ = new ArrayList<NakupKnjige>();
 
-	public void setNaslov(String aNaslov) {
-		this._naslov = aNaslov;
+	public void setNaslov(String naslov) {
+		this.naslov = naslov;
 	}
 
 	public String getNaslov() {
-		return this._naslov;
+		return this.naslov;
 	}
 
-	public void setAvtor(String aAvtor) {
-		this._avtor = aAvtor;
+	public void setAvtor(String avtor) {
+		this.avtor = avtor;
 	}
 
 	public String getAvtor() {
-		return this._avtor;
+		return this.avtor;
 	}
 
-	public void setZalozba(String aZalozba) {
-		this._zalozba = aZalozba;
+	public void setZalozba(String zalozba) {
+		this.zalozba = zalozba;
 	}
 
 	public String getZalozba() {
-		return this._zalozba;
+		return this.zalozba;
 	}
 
-	public void setLetoIzdaje(int aLetoIzdaje) {
-		this._letoIzdaje = aLetoIzdaje;
+	public void setLetoIzdaje(int letoIzdaje) {
+		this.letoIzdaje = letoIzdaje;
 	}
 
 	public int getLetoIzdaje() {
-		return this._letoIzdaje;
+		return this.letoIzdaje;
 	}
 
-	public void setISBN(int aISBN) {
-		this._iSBN = aISBN;
+	public void setISBN(int ISBN) {
+		this.ISBN = ISBN;
 	}
 
 	public int getISBN() {
-		return this._iSBN;
+		return this.ISBN;
 	}
 
-	public void setStatus(boolean aStatus) {
-		this._status = aStatus;
+	public void setStatus(boolean status) {
+		this.status = status;
 	}
 
 	public boolean isStatus() {
-		return this._status;
+		return this.status;
 	}
 
-	public void setZvrst(Zvrst aZvrst) {
-		this._zvrst = aZvrst;
+	public void setZvrst(Zvrst zvrst) {
+		this.zvrst = zvrst;
 	}
 
 	public Zvrst getZvrst() {
-		return this._zvrst;
+		return this.zvrst;
 	}
 }

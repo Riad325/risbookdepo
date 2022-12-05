@@ -1,7 +1,5 @@
-package com.example.demo.vao;
-
-import java.util.Vector;
+import java.util.ArrayList;
 
 public enum Zvrst {
-	//zvrsti
+	public ArrayList<Knjiga> unnamed_Knjiga_ = new ArrayList<Knjiga>();
 }
